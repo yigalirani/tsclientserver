@@ -6,6 +6,7 @@ async function run_app(){
   const body = document.querySelector('body');
   if (!body)
     return
-  body.textContent = await getcontent('/get_list');
+  const list = await getcontent('/get_list') as string[];
+  body.innerHTML = '<ol>'+list.map((s:string) => '<li>'+s +'</li>').join('\n')+'</ol>';
 }
 run_app()

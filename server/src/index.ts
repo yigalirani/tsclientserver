@@ -3,10 +3,10 @@ import path from 'path';
 
 const app = express();
 const port = 80;
- 
+
 // In-memory list of strings
 const stringList: string[] = ['Hello', 'jobes'];
-const distDir = path.join(__dirname, '../../client/dist');
+const distDir = path.join(__dirname, '../../client/static');
 // Serve static files from the client/dist directory
 app.use('/',express.static(distDir));
 

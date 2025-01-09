@@ -3,6 +3,6 @@ esbuild.build({
   entryPoints:['src/app.ts'],
   platform: 'node',
   bundle:true,
-  outdir: './dist/gen',
+  outdir: './static/dist',
   sourcemap:true
 })
