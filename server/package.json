@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "watch_build":"nodemon --watch src --watch build.mjs --ext ts build.mjs",
+    "watch_build":"nodemon build.mjs",
     "watch_run": "nodemon --watch dist/index.js dist/index.js"
   },
   "keywords": [],

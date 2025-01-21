@@ -10,8 +10,8 @@
     "server"
   ],
   "scripts": {
-    "watch_eslint": "nodemon --watch --watch eslint.config.mjs --watch . --ext ts --exec \"eslint . --format visualstudio  \"",
-    "watch_tsc": "nodemon --exec \"tsc -b || true\""
+    "watch_eslint": "nodemon --exec eslint . --format visualstudio",
+    "watch_tsc": "nodemon --exec tsc -b || true"
   },
   "dependencies": {
     "@eslint/compat": "^1.2.2",

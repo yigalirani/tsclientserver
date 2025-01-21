@@ -1,0 +1,7 @@
+{
+  "events": {
+    "restart": "echo restarting at %TIME% ======================="
+  },
+  "watch": ["src","."],
+  "ext":"ts,json,mjs"
+}

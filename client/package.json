@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "watch_build": "nodemon --watch src --watch build.mjs --ext ts,mjs build.mjs"
+    "watch_build": "nodemon  build.mjs"
   },
   "keywords": [],
   "author": "",
